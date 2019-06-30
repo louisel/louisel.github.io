@@ -1,0 +1,9 @@
+---
+repos:
+- repo: https://github.com/prettier/prettier
+  rev: "1.18.1"
+  hooks:
+    - id: prettier
+      name: prettier (JS/JSON/CSS/HTML/MD style)
+      files: \.(js|json|css|html|md)$
+      args: ['--single-quote', '--list-different']
